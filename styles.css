@@ -4,17 +4,23 @@
     box-sizing: border-box;
 }
 
-body{
+.wrapper{
     background-color: #F9F9F9;
+    height: 100%;
 }
 
 p{
     color: #1C3879;
+    display: inline;
 }
 
 hr{
     border-style: none;
     border-top-style: dotted;
+}
+
+.empty{
+    color: #A2B5BB;
 }
 
 .date{
@@ -26,10 +32,10 @@ hr{
 
 .comments{
     width: 90%;
-    align-content: center;
     margin: 0 auto;
-    height: 400px;
+    height: 40vh;
     padding-top: 20px;
+    overflow-y: scroll;
 }
 
 .textarea{
@@ -43,6 +49,7 @@ textarea{
     padding: 15px 20px;
     border: 1px solid #1CD6CE;
     border-radius: 6px;
+    margin-top: 10px;
 }
 
 #btn {
@@ -61,4 +68,40 @@ textarea{
 hr {
     color: #7FBCD2;
 }
-    
+
+.user_img{
+    width: 60px;
+    height: 60px;
+    border-radius: 20%;
+    margin-right: 10px;
+}
+
+#name_id{
+    color: #A62349;
+}
+
+#name, #avatar {
+    width: 14.3%;
+    height: 15px;
+    padding: 15px 20px;
+    border: 1px solid #1CD6CE;
+    border-radius: 6px;
+    margin-top: 10px;
+    font-family: monospace;
+}
+
+#clear{
+    margin-top: 10px;
+    width: 7%;
+    padding: 14px 20px;
+    margin: 15px 0 50px 0;
+    background-color: #7FBCD2;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    text-transform: lowercase;
+}
+
+
